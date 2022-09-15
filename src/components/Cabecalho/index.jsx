@@ -1,20 +1,19 @@
 import logobocaweb from '../../logobocaweb.png';
 export const Cabecalho = () => {
 
-    return(
-        <header>
+  return(
+    <header>
+      
+      <div className="wholeLogo">
 
-                <div className="logo">		
-					<img  src={logobocaweb} alt="logo do bocaweb"/>
-	    	    </div>     
-            
-                <div className="nomedosite flex"> 
-                
-                    <h2> BOCA WEB FRONT </h2> 
-            
-                </div>
-        </header>
-    )
+          <img src={logobocaweb} className="logo" alt="logo do bocaweb" />
+      
+          <h2 className="nomedosite">boca web front</h2>
+
+      </div>
+
+    </header>
+  )
     
     
 }
