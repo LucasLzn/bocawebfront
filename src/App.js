@@ -46,7 +46,7 @@ class App extends Component{
         />
 
         <div className = 'lista'> 
-          <p> {odas.length} odas </p>
+            <p className="lengthODAS"> {odas.length} odas </p>
             {odas.map(oda => (
               <Lista
                 key = {oda.id}
