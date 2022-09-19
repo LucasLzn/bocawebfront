@@ -147,7 +147,7 @@ header {
 
 .dadosODA:hover > p {
   opacity: 1;
-  max-height: 10rem;
+  max-height: 50rem;
   margin: 1rem;
 }
 
@@ -198,10 +198,6 @@ footer {
 
   .blockODAS {
     width: 100%;
-  }
-
-  .dadosODA:hover > p {
-    max-height: 50rem;
   }
 
 }
